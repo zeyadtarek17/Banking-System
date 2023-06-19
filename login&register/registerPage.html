@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="register.js"></script>
+    <link rel="stylesheet" href="registerPage.css" />
+    <title>SEB | register</title>
+  </head>
+  <body>
+    <div class="alert" id="a1">
+      <p>logged in successfully</p>
+    </div>
+    <div class="landingPage">
+      <div class="landingPage-part1">
+        <div class="landingPage-part1-content">
+          <h1>SEB</h1>
+          <h4>
+            Banking has never been this easy – discover the power of our online
+            platform and streamline your financial life.
+          </h4>
+        </div>
+      </div>
+      <div class="landingPage-part2">
+        <div class="login-form-wrapper">
+          <form
+            action=""
+            class="login-form"
+            name="myForm2"
+            onsubmit="return validateRegistrationForm()"
+          >
+            <label for="" id="login-label">REGISTER</label>
+            <input
+              type="text"
+              class="login-field"
+              name="full name"
+              placeholder="full name"
+            />
+            <input
+              type="text"
+              class="login-field"
+              name="username"
+              placeholder="username"
+            />
+            <input
+              type="text"
+              class="login-field"
+              name="national id"
+              placeholder="national id"
+            />
+            <input
+              type="text"
+              class="login-field"
+              name="address"
+              placeholder="address"
+            />
+            <input
+              type="text"
+              class="login-field"
+              name="phone number"
+              placeholder="phone number"
+            />
+            <input
+              type="email"
+              class="login-field"
+              name="email"
+              placeholder="email"
+            />
+            <input
+              type="password"
+              class="login-field"
+              name="password"
+              placeholder="password"
+            />
+            <input
+              type="password"
+              class="login-field"
+              name="password confirm"
+              placeholder="confirm password"
+            />
+            <input type="submit" id="submit-btn" value="SIGN UP" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

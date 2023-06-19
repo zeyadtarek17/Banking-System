@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homePage.css" />
+    <script src="../admin/homePage.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>SEB | home</title>
+  </head>
+  <body>
+    <div class="alert" id="a1">
+      <p>logged in successfully</p>
+    </div>
+    <div class="home">
+      <div class="home-menu">
+        <div class="home-menu-logo">
+          <h1>SEB</h1>
+        </div>
+        <div class="home-menu-options">
+          <ul>
+            <li id="lin">
+              <span class="material-symbols-outlined"> manage_accounts </span
+              ><a id="-c1" onclick="apply(event)" href="">Manage Clients</a>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> badge </span
+              ><a id="-managebanker" href="" onclick="apply(event)"
+                >Manage Bankers</a
+              >
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> problem </span
+              ><a id="-managereports" onclick="apply(event)" href=""
+                >Manage Reports</a
+              >
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> campaign </span
+              ><a id="-createAnnouncement" onclick="apply(event)" href=""
+                >Create an Announcement
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="home-menu-footer">
+          <ul>
+            <li>
+              <span class="material-symbols-outlined"> settings </span
+              ><a href="" id="-settings" onclick="apply(event)">Settings</a>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> logout </span
+              ><a href="../login&register/landingPage.html">logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="home-dashboard">
+        <div class="home-dashboard-header">
+          <h2 id="pageTitle">Admin Dashboard</h2>
+          <h3 id="headerName">Admin</h3>
+          <a href="" class="icon">
+            <span
+              class="material-symbols-outlined"
+              id="-notf"
+              onclick="apply(event)"
+            >
+              notifications
+            </span>
+          </a>
+        </div>
+        <div class="content" id="contentt">
+          <div class="c1" id="c1"></div>
+          <div class="managereports" id="managereports">
+            <div class="reporting-cntnt">
+              <div class="report-options">
+                <a href="" id="-pendingreports" onclick="apply(event)"
+                  >Pending Reports</a
+                >
+                <a href="" id="-issueresolution" onclick="apply(event)"
+                  >Send Issue Resolution Message</a
+                >
+              </div>
+              <div class="report-form">
+                <div class="transactions-wrapper" id="pendingreports">
+                  <h3 id="login-field" class="pnd notfheader">
+                    Pending Reports
+                  </h3>
+                  <div class="notifications-all">
+                    <div class="notifications-info">
+                      <div class="notifications-info-header">
+                        <h3 id="notftitle">can't update personal info</h3>
+                        <h3 id="notftime">29-05-2023 19:00 pm</h3>
+                      </div>
+                      <div class="notifications-info-header">
+                        <h3 id="notfsender">hazemmohamed210</h3>
+                        <div class="btn-wrapper">
+                          <a id="deletereport" href="">Delete Report</a>
+                        </div>
+                      </div>
+                      <div class="notifications-info-rest">
+                        <h3 id="notfcontent">
+                          the updated settings for my personal info isn't saved.
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="notifications-info">
+                      <div class="notifications-info-header">
+                        <h3 id="notftitle">can't update personal info</h3>
+                        <h3 id="notftime">29-05-2023 19:00 pm</h3>
+                      </div>
+                      <div class="notifications-info-header">
+                        <h3 id="notfsender">hazemmohamed210</h3>
+                        <div class="btn-wrapper">
+                          <a id="deletereport" href="">Delete Report</a>
+                        </div>
+                      </div>
+                      <div class="notifications-info-rest">
+                        <h3 id="notfcontent">
+                          the updated settings for my personal info isn't saved.
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="notifications-info">
+                      <div class="notifications-info-header">
+                        <h3 id="notftitle">can't update personal info</h3>
+                        <h3 id="notftime">29-05-2023 19:00 pm</h3>
+                      </div>
+                      <div class="notifications-info-header">
+                        <h3 id="notfsender">hazemmohamed210</h3>
+                        <div class="btn-wrapper">
+                          <a id="deletereport" href="">Delete Report</a>
+                        </div>
+                      </div>
+                      <div class="notifications-info-rest">
+                        <h3 id="notfcontent">
+                          the updated settings for my personal info isn't saved.
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="notifications-info">
+                      <div class="notifications-info-header">
+                        <h3 id="notftitle">can't update personal info</h3>
+                        <h3 id="notftime">29-05-2023 19:00 pm</h3>
+                      </div>
+                      <div class="notifications-info-header">
+                        <h3 id="notfsender">hazemmohamed210</h3>
+                        <div class="btn-wrapper">
+                          <a id="deletereport" href="">Delete Report</a>
+                        </div>
+                      </div>
+                      <div class="notifications-info-rest">
+                        <h3 id="notfcontent">
+                          the updated settings for my personal info isn't saved.
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="login-form-wrapper" id="issueresolution">
+                  <form
+                    action=""
+                    name="sendreplyform"
+                    onsubmit="return validateAll('sendreplyform', event)"
+                    class="login-form"
+                  >
+                    <label for="" id="login-label">Send a reply </label>
+                    <input
+                      type="text"
+                      id="login-field"
+                      name="client's username"
+                      placeholder="Client's username"
+                    />
+                    <textarea
+                      rows="5"
+                      cols="30"
+                      name="reply body"
+                      placeholder="Enter the reply"
+                      id="login-field"
+                    ></textarea>
+                    <input type="submit" id="submit-btn" value="POST" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="settings" id="settings">
+            <div class="reporting-cntnt">
+              <div class="report-options">
+                <a href="" id="-personalInfo" onclick="apply(event)"
+                  >Personal Info</a
+                >
+                <a href="" id="-passSettings" onclick="apply(event)"
+                  >Password and Security</a
+                >
+              </div>
+              <div class="report-form">
+                <div class="login-form-wrapper" id="personalInfo">
+                  <form
+                    action=""
+                    name="personalsettform"
+                    onsubmit="showalertgreen('updates saved', event)"
+                    class="login-form"
+                  >
+                    <label for="" id="login-label">Personal Info</label>
+                    <input
+                      type="text"
+                      id="login-field"
+                      name="fname"
+                      placeholder="Full name: Hazem Mohamed Anwar"
+                    />
+                    <input
+                      type="text"
+                      id="login-field"
+                      name="username"
+                      placeholder="Username: hazemmohamed210"
+                    />
+                    <input
+                      type="text"
+                      id="login-field"
+                      name="addr"
+                      placeholder="Address: 221b Baker St, London NW1 6XE, UK"
+                    />
+                    <input
+                      type="text"
+                      id="login-field"
+                      name="phoneNum"
+                      placeholder="Phone number: 01101010010"
+                    />
+                    <input
+                      type="email"
+                      id="login-field"
+                      name="email"
+                      placeholder="email: hazemhazem@gmail.com"
+                    />
+                    <input
+                      type="submit"
+                      id="submit-btn"
+                      value="SAVE SETTINGS"
+                    />
+                  </form>
+                </div>
+                <div class="login-form-wrapper" id="passSettings">
+                  <form
+                    action=""
+                    name="passandsecurityform"
+                    onsubmit="return validateAll('passandsecurityform', event)"
+                    class="login-form"
+                  >
+                    <label for="" id="login-label">Password and Security</label>
+                    <input
+                      type="password"
+                      id="login-field"
+                      name="old password"
+                      placeholder="enter your current password"
+                    />
+                    <input
+                      type="password"
+                      id="login-field"
+                      name="new password"
+                      placeholder="enter your new password"
+                    />
+                    <input
+                      type="password"
+                      id="login-field"
+                      name="password confirm"
+                      placeholder="confirm your new password"
+                    />
+                    <input
+                      type="submit"
+                      id="submit-btn"
+                      value="SAVE SETTINGS"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="announcements" id="createAnnouncement">
+            <div class="login-form-wrapper">
+              <form
+                action=""
+                name="announceform"
+                onsubmit="return validateAll('announceform', event)"
+                class="login-form"
+              >
+                <label for="" id="login-label">Create an Announcement</label>
+                <input
+                  type="text"
+                  id="login-field"
+                  name="title"
+                  placeholder="Announcement Title"
+                />
+                <textarea
+                  rows="5"
+                  cols="30"
+                  placeholder="Enter The Announcement Text"
+                  name="announcement body"
+                  id="login-field"
+                ></textarea>
+                <input type="submit" id="submit-btn" value="POST" />
+              </form>
+            </div>
+          </div>
+          <div class="manageBankers" id="managebanker">
+            <div class="reporting-cntnt">
+              <div class="report-options">
+                <a href="" id="-addbanker" onclick="apply(event)">Add Banker</a>
+                <a href="" id="-removebanker" onclick="apply(event)"
+                  >Remove Banker</a
+                >
+              </div>
+              <div class="report-form">
+                <div class="login-form-wrapper" id="addbanker">
+                  <form
+                    action=""
+                    name="addbankerform"
+                    onsubmit="return validateAll('addbankerform', event)"
+                    class="login-form"
+                  >
+                    <label for="" id="login-label"
+                      >Add a new Banker Account</label
+                    >
+                    <input
+                      type="text"
+                      id="login-field"
+                      name="employee id"
+                      placeholder="Banker's Employee Id"
+                    />
+                    <select id="login-field" class="roleSelect">
+                      <option value="">Select a role</option>
+                      <option value="option1" class="dropval">
+                        Managing loan applications
+                      </option>
+                      <option value="option2" class="dropval">
+                        Managing credit card reports
+                      </option>
+                      <option value="option3" class="dropval">
+                        Managing bank accounts opening/closing
+                      </option>
+                      <option value="option4" class="dropval">
+                        Managing credit card applications
+                      </option>
+                      <!-- <option value="option5" class="dropval">
+                        Cus
+                      </option> -->
+                    </select>
+                    <input type="submit" id="submit-btn" value="ADD" />
+                  </form>
+                </div>
+                <div class="login-form-wrapper" id="removebanker">
+                  <form
+                    action=""
+                    name="removebankerform"
+                    onsubmit="return validateAll('removebankerform', event)"
+                    class="login-form"
+                  >
+                    <label for="" id="login-label"
+                      >Remove a banker from the system</label
+                    >
+                    <input
+                      type="text"
+                      id="login-field"
+                      name="employee id"
+                      placeholder="Banker's Employee ID"
+                    />
+                    <input
+                      type="text"
+                      id="login-field"
+                      name="removal reason"
+                      placeholder="Reason for removal"
+                    />
+                    <input
+                      type="submit"
+                      id="submit-btn"
+                      value="SAVE SETTINGS"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="notifications" id="notf">
+            <div class="transactions-wrapper" id="specificnotf">
+              <h3 id="login-field" class="pnd notfheader">Notifications</h3>
+              <div class="notifications-all">
+                <div class="notifications-info">
+                  <div class="notifications-info-header">
+                    <h3 id="notftitle">Payment Confirmation</h3>
+                    <h3 id="notftime">29-05-2023 19:00 pm</h3>
+                  </div>
+                  <div class="notifications-info-header">
+                    <h3 id="notfsender">Banker</h3>
+                    <h3 id="notfcontent">
+                      your payment to blablabla was successfully made.
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
